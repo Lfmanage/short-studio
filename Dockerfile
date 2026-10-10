@@ -1,0 +1,10 @@
+FROM python:3.11-slim
+RUN apt-get update && apt-get install -y --no-install-recommends \
+      ffmpeg fonts-montserrat fonts-dejavu-core fontconfig ca-certificates \
+    && fc-cache -f && rm -rf /var/lib/apt/lists/*
+WORKDIR /app
+COPY requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt
+COPY . .
+ENV PYTHONUNBUFFERED=1
+CMD ["python", "server.py"]

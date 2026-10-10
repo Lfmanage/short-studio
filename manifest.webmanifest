@@ -1,0 +1,12 @@
+{
+  "name": "Short Studio",
+  "short_name": "Short Studio",
+  "description": "Une vidéo, un bouton, un Short de 60 s prêt à poster.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0b0b10",
+  "theme_color": "#0b0b10",
+  "icons": [{ "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }]
+}
