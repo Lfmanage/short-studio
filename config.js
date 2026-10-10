@@ -1,7 +1,5 @@
-// Remplis avec Supabase > Project Settings > API (clé "anon public", PAS la service_role).
-// Laisse vide pour tester l'appli en mode démo.
 window.SHORT_CONFIG = {
-  SUPABASE_URL: "",
-  SUPABASE_ANON_KEY: "",
+  SUPABASE_URL: "https://oznizzgscrmamjoehxpw.supabase.co",
+  SUPABASE_ANON_KEY: "sb_publishable_20KrYRhk6pFCPEJhCsPTzg_GayHFikE",
   DURATION: 60,
 };
